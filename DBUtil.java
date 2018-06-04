@@ -1,18 +1,10 @@
-package com.whstone.utils;
-
 import java.sql.*;
 
-/**
- * Created by zhongkf on 2018/5/24
- */
 public class DBUtil {
 
     private static String driver = "oracle.jdbc.OracleDriver";
-
-//    private String url = "jdbc:oracle:thin:@145.170.23.141:1521:orcl";
     private String url = "jdbc:oracle:thin:@145.170.23.127:1521:orcl";
     private String user = "sys as sysdba";
-//    private String pwd = "sys";
     private String pwd = "oracle";
     private PreparedStatement sta = null;
     private ResultSet rs = null;
